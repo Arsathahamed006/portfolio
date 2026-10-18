@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f5f2" />
+  <title>Portfolio — Creative Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Portfolio home">Portfolio<span>.</span></a>
+
+      <div class="nav-actions">
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false"
+          aria-controls="menuPanel" aria-label="Open navigation menu">
+          <span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+          <span>Menu</span>
+        </button>
+        <a href="#contact" class="contact-btn">
+          Contact Us <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <div class="menu-panel" id="menuPanel" aria-hidden="true">
+        <a href="#home">Home <span>01</span></a>
+        <a href="#about">About <span>02</span></a>
+        <a href="#work">My Work <span>03</span></a>
+        <a href="#contact">Contact <span>04</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+   
+<section class="hero" id="home">
+  <div class="hero-content">
+
+    <div class="eyebrow">CREATIVE PORTFOLIO · 2026</div>
+
+    <h1 class="hero-name">Arsath Ahamed<span>.</span></h1>
+
+    <h2 class="hero-role">
+      MIS Executive <span class="role-divider">&</span>
+      Power BI 
+    </h2>
+
+    <p class="hero-skills">
+      SQL <span>•</span> Power BI <span>•</span>
+      Advanced Excel <span>•</span> Power Query
+    </p>
+
+    <p class="hero-description">
+      Healthcare Data & MIS Reporting
+      <span class="description-break"><br /></span>
+      Building dashboards that drive decisions.
+    </p>
+
+    <div class="hero-actions">
+      <a
+        href="resume.pdf"
+        class="hero-btn hero-btn-primary"
+        download="Arsath-Ahamed-Resume.pdf"
+      >
+        Download Resume
+        <span class="btn-arrow">↓</span>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/arsath-azeez/"
+        class="hero-btn hero-btn-secondary"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn Profile
+        <span class="btn-arrow">↗</span>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section class="about-section" id="about">
+  <div class="about-container">
+
+    <!-- LEFT SIDE: PROFILE IMAGE -->
+    <div class="about-visual">
+      <div class="about-photo-wrap">
+
+        <img
+          src="profile.png"
+          alt="Arsath Ahamed - MIS Executive"
+          class="about-photo"
+          loading="lazy"
+        />
+
+        <div class="photo-label">
+          <span class="status-dot"></span>
+          <span>MIS Executive | Power BI &amp; Excel</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE: ABOUT CONTENT -->
+    <div class="about-content">
+
+      <div class="section-eyebrow">
+        <span class="eyebrow-line"></span>
+        ABOUT ME
+      </div>
+
+      <h2 class="about-title">
+        Turning Data into
+        <span>Actionable Insights.</span>
+      </h2>
+
+      <p class="about-intro">
+        I am an MIS professional focused on reporting, data management,
+        and business performance analysis. I work with Microsoft Excel
+        and Power BI to organize data, build dashboards, monitor key
+        performance indicators, and present information in a clear,
+        meaningful way to support informed business decisions.
+      </p>
+
+      <!-- EXPERIENCE & EXPERTISE -->
+      <div class="about-block">
+
+        <div class="block-heading">
+          <span class="block-number">01</span>
+          <h3>Experience &amp; Expertise</h3>
+        </div>
+
+        <div class="expertise-list">
+
+          <div class="expertise-item">
+            <span class="expertise-arrow">↗</span>
+
+            <div>
+              <h4>MIS Reporting</h4>
+              <p>
+                Preparing structured reports, monitoring KPIs,
+                validating data accuracy, and maintaining consistent
+                reporting workflows.
+              </p>
+            </div>
+          </div>
+
+          <div class="expertise-item">
+            <span class="expertise-arrow">↗</span>
+
+            <div>
+              <h4>Power BI Dashboard Development</h4>
+              <p>
+                Developing interactive dashboards, creating DAX
+                measures, organizing data models, and visualizing
+                business performance.
+              </p>
+            </div>
+          </div>
+
+          <div class="expertise-item">
+            <span class="expertise-arrow">↗</span>
+
+            <div>
+              <h4>Advanced Excel &amp; Automation</h4>
+              <p>
+                Using Pivot Tables, XLOOKUP, VLOOKUP, SUMIFS,
+                COUNTIFS, and Power Query to analyze data and
+                streamline reporting tasks.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</section>
+
+</section>
+
+<!-- FEATURED PROJECT SECTION -->
+<section class="work-section" id="work">
+  <div class="work-container">
+
+    <!-- Section Header -->
+    <div class="work-header">
+      <div>
+        <div class="section-eyebrow">
+          <span class="eyebrow-line"></span>
+          SELECTED WORK
+        </div>
+        <h2 class="work-heading">
+          One project.<br />
+          <span>Real-world thinking.</span>
+        </h2>
+      </div>
+
+      <p class="work-intro">
+        A closer look at a healthcare MIS project focused on
+        billing operations, insurance claims, and reporting.
+      </p>
+    </div>
+
+    <!-- Featured Project -->
+    <article class="featured-project">
+
+      <!-- Project Information -->
+      <div class="project-info">
+        <div class="project-meta">
+          <span>FEATURED PROJECT</span>
+          <span class="project-number">01 / 01</span>
+        </div>
+
+        <div class="project-category">
+          HEALTHCARE · MIS REPORTING
+        </div>
+
+        <h3 class="project-title">
+          Hospital Billing &amp;
+          <span>Insurance Claims MIS</span>
+        </h3>
+
+        <p class="project-description">
+          A healthcare reporting project concept focused on
+          organizing hospital billing information, monitoring
+          insurance claim statuses, and presenting operational
+          insights through structured MIS reports and dashboards.
+        </p>
+
+        <!-- Project Focus -->
+        <div class="project-focus">
+          <h4>PROJECT FOCUS</h4>
+
+          <div class="focus-item">
+            <span>01</span>
+            Hospital billing and payment tracking
+          </div>
+
+          <div class="focus-item">
+            <span>02</span>
+            Insurance claims status monitoring
+          </div>
+
+          <div class="focus-item">
+            <span>03</span>
+            Reporting and dashboard development
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="project-tools">
+          <h4>TOOLS &amp; TECHNOLOGIES</h4>
+
+          <div class="project-tags">
+            <span>Advanced Excel</span>
+            <span>Power Query</span>
+            <span>SQL</span>
+            <span>Power BI</span>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <a class="project-link" href="#project-details">
+          Explore Project
+          <span>↗</span>
+        </a>
+      </div>
+
+      <!-- Dashboard Visual Preview -->
+      <div class="project-visual">
+        <div class="dashboard-preview">
+
+          <div class="dashboard-topbar">
+            <div>
+              <span class="dashboard-kicker">HEALTHCARE MIS</span>
+              <h4>Billing &amp; Claims Overview</h4>
+            </div>
+            <span class="dashboard-icon">↗</span>
+          </div>
+
+          <div class="dashboard-filters">
+            <span>Billing</span>
+            <span>Claims</span>
+            <span>Reporting</span>
+          </div>
+
+          <div class="dashboard-cards">
+            <div class="dashboard-card">
+              <span>Billing Records</span>
+              <strong>—</strong>
+              <small>Reporting period</small>
+            </div>
+
+            <div class="dashboard-card">
+              <span>Claims Status</span>
+              <strong>—</strong>
+              <small>Workflow tracking</small>
+            </div>
+
+            <div class="dashboard-card">
+              <span>Pending Review</span>
+              <strong>—</strong>
+              <small>Claims monitoring</small>
+            </div>
+          </div>
+
+          <div class="dashboard-chart">
+            <div class="chart-heading">
+              <span>Billing &amp; Claims Analysis</span>
+              <span class="chart-label">OVERVIEW</span>
+            </div>
+
+            <div class="chart-content">
+              <div class="chart-y-labels">
+                <span>Billing</span>
+                <span>Claims</span>
+                <span>Payments</span>
+                <span>Review</span>
+              </div>
+
+              <div class="chart-bars">
+                <div class="chart-row">
+                  <span style="width: 85%"></span>
+                </div>
+                <div class="chart-row">
+                  <span style="width: 63%"></span>
+                </div>
+                <div class="chart-row">
+                  <span style="width: 72%"></span>
+                </div>
+                <div class="chart-row">
+                  <span style="width: 43%"></span>
+                </div>
+              </div>
+            </div>
+
+            <p class="dashboard-note">
+              Illustrative layout — not actual hospital data
+            </p>
+          </div>
+
+          <div class="dashboard-footer">
+            <span><i class="preview-dot"></i> Reporting workflow</span>
+            <span>MIS / BI</span>
+          </div>
+
+        </div>
+
+        <div class="visual-caption">
+          <span>01</span>
+          PROJECT PREVIEW
+          <span class="caption-line"></span>
+        </div>
+      </div>
+
+    </article>
+
+    <!-- Case Study Details -->
+    <div class="project-details" id="project-details">
+      <div class="details-heading">
+        <span class="details-number">01</span>
+        <h3>Project Overview</h3>
+      </div>
+
+      <div class="details-grid">
+        <div class="details-item">
+          <h4>Objective</h4>
+          <p>
+            Structure billing and insurance claims information
+            into clear, consistent reports for operational review.
+          </p>
+        </div>
+
+        <div class="details-item">
+          <h4>Reporting Scope</h4>
+          <p>
+            Billing records, payment tracking, claims status,
+            pending items, and reporting summaries.
+          </p>
+        </div>
+
+        <div class="details-item">
+          <h4>Analytical Approach</h4>
+          <p>
+            Data preparation, validation, reporting logic,
+            and dashboard-oriented visualization.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS & TOOLS SECTION -->
+<section class="skills-section" id="skills">
+  <div class="skills-container">
+
+    <div class="section-eyebrow">
+      <span class="eyebrow-line"></span>
+      TECHNICAL EXPERTISE
+    </div>
+
+    <div class="skills-header">
+      <h2 class="skills-title">
+        Skills &amp; <span>Tools.</span>
+      </h2>
+
+      <p class="skills-intro">
+        The tools, techniques, and reporting capabilities I use
+        to organize data, automate workflows, and support
+        data-driven decisions.
+      </p>
+    </div>
+
+    <!-- Tools -->
+    <div class="skill-row">
+      <div class="skill-index">01</div>
+
+      <div class="skill-category">
+        <h3>Tools &amp; Technologies</h3>
+        <p class="skill-description">
+          Software and platforms
+        </p>
+      </div>
+
+      <div class="skill-content">
+        <div class="skill-tags">
+          <span>MS Excel</span>
+          <span>Power BI</span>
+          <span>MS Word</span>
+          <span>MySQL Workbench</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Excel -->
+    <div class="skill-row">
+      <div class="skill-index">02</div>
+
+      <div class="skill-category">
+        <h3>Advanced Excel</h3>
+        <p class="skill-description">
+          Formulas &amp; analysis
+        </p>
+      </div>
+
+      <div class="skill-content">
+        <div class="skill-tags">
+          <span>SUMIFS</span>
+          <span>COUNTIFS</span>
+          <span>IF</span>
+          <span>INDEX-MATCH</span>
+          <span>VLOOKUP</span>
+          <span>XLOOKUP</span>
+          <span>Pivot Tables</span>
+          <span>Slicers</span>
+          <span>Charts</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reporting -->
+    <div class="skill-row">
+      <div class="skill-index">03</div>
+
+      <div class="skill-category">
+        <h3>Reporting &amp; Automation</h3>
+        <p class="skill-description">
+          Dashboards &amp; workflows
+        </p>
+      </div>
+
+      <div class="skill-content">
+        <div class="skill-tags">
+          <span>Interactive Dashboards</span>
+          <span>Report Automation</span>
+          <span>Excel Macros</span>
+          <span>Power Query</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SQL -->
+    <div class="skill-row">
+      <div class="skill-index">04</div>
+
+      <div class="skill-category">
+        <h3>SQL &amp; Database</h3>
+        <p class="skill-description">
+          Queries &amp; management
+        </p>
+      </div>
+
+      <div class="skill-content">
+        <div class="skill-tags">
+          <span>Commands</span>
+          <span>Joins</span>
+          <span>Aggregate Functions</span>
+          <span>Views</span>
+          <span>Database Management</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data handling -->
+    <div class="skill-row">
+      <div class="skill-index">05</div>
+
+      <div class="skill-category">
+        <h3>Data Handling &amp; ETL</h3>
+        <p class="skill-description">
+          Data preparation &amp; quality
+        </p>
+      </div>
+
+      <div class="skill-content">
+        <div class="skill-tags">
+          <span>Data Cleaning</span>
+          <span>Data Validation</span>
+          <span>Power Query Editor</span>
+          <span>ETL Process</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Closing statement -->
+    <div class="skills-footer">
+      <p>Turning structured data into useful insights.</p>
+      <a href="#contact" class="skills-contact-link">
+        Let's connect <span>↗</span>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- EXPERIENCE SECTION -->
+<section class="experience-section" id="experience">
+  <div class="experience-container">
+
+    <!-- Section heading -->
+    <div class="section-eyebrow">
+      <span class="eyebrow-line"></span>
+      CAREER JOURNEY
+    </div>
+
+    <div class="experience-header">
+      <h2 class="experience-title">
+        Experience &amp;
+        <span>Career Transition.</span>
+      </h2>
+
+      <p class="experience-intro">
+        Building on my healthcare industry experience while
+        developing expertise in MIS reporting, data analysis,
+        and business intelligence.
+      </p>
+    </div>
+
+    <!-- Medical Coding Experience -->
+    <div class="experience-card">
+
+      <div class="experience-meta">
+        <span class="experience-number">01</span>
+        <span class="experience-date">MAR 2023 — DEC 2023</span>
+      </div>
+
+      <div class="experience-details">
+        <span class="experience-type">PROFESSIONAL EXPERIENCE</span>
+
+        <h3>Medical Coder</h3>
+
+        <p class="experience-description">
+          Worked with healthcare documentation, medical coding
+          accuracy, compliance, and claim-related processes.
+          Developed strong attention to detail, data accuracy,
+          analytical thinking, and documentation skills.
+        </p>
+
+        <ul class="experience-points">
+          <li>
+            Reviewed patient records for accurate ICD-10-CM
+            coding and compliance.
+          </li>
+          <li>
+            Collaborated with teams to resolve claim disputes
+            and improve documentation quality.
+          </li>
+          <li>
+            Identified coding errors and supported process
+            improvement initiatives.
+          </li>
+          <li>
+            Generated performance and compliance reports
+            for management review.
+          </li>
+        </ul>
+
+        <div class="experience-tags">
+          <span>Healthcare Data</span>
+          <span>Data Accuracy</span>
+          <span>Documentation</span>
+          <span>Compliance Reporting</span>
+          <span>Analytical Skills</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Career Transition -->
+    <div class="career-transition">
+
+      <div class="transition-icon">↗</div>
+
+      <div class="transition-content">
+        <span class="transition-label">CAREER DIRECTION</span>
+
+        <h3>From Healthcare Operations to MIS &amp; Data Reporting</h3>
+
+        <p>
+          Expanding my analytical and reporting capabilities through
+          Microsoft Excel, Power BI, SQL, and Power Query to prepare
+          structured reports, automate workflows, build dashboards,
+          and turn data into actionable insights.
+        </p>
+
+        <div class="transition-skills">
+          <span>Advanced Excel</span>
+          <span>Power BI</span>
+          <span>SQL</span>
+          <span>Power Query</span>
+          <span>MIS Reporting</span>
+          <span>Dashboard Development</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="site-footer" id="contact">
+  <div class="footer-container">
+
+    <div class="footer-main">
+      <a href="#home" class="footer-logo">
+        Arsath Ahamed<span>.</span>
+      </a>
+
+      <p class="footer-message">
+        Open to new opportunities in MIS Reporting, Power BI
+      </p>
+
+      <a
+        href="mailto:azeezarsath06@gmail.com"
+        class="footer-email"
+      >
+        azeezarsath06@gmail.com
+        <span>↗</span>
+      </a>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copyright">
+        © 2026 Arsath Ahamed. All rights reserved.
+      </p>
+
+      <div class="footer-links">
+        <a
+          href="https://www.linkedin.com/in/YOUR-PROFILE/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn <span>↗</span>
+        </a>
+
+        <a href="#home">
+          Back to top ↑
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </main>
+</body>
+</html>
